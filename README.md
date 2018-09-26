@@ -1,12 +1,20 @@
 # docker-ce-offline
 docker offline package **no dependent** 
-## install
+## install(centos)
 
 ```
    git clone git@github.com:cuisongliu/docker-ce-offline.git
    cd docker-ce-offline
    chmod a+x * 
    sh ./docker-install.sh
+```
+## install(debian)
+
+```
+   git clone git@github.com:cuisongliu/docker-ce-offline.git
+   cd docker-ce-offline
+   chmod a+x * 
+   sudo sh ./docker-install-debian.sh
 ```
 
 ## uninstall 
